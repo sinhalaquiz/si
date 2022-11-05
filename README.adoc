@@ -1,0 +1,63 @@
+# si(සි) Programming language is ...
+
+* ... a fun exploration
+* ... inspired by Aussie++
+* ... not meant to be taken too seriously
+* ... possibly a waste of time
+
+Currently, I'm building a spec for the language
+syntax.
+
+## Function definitions
+
+The following is a standard function definition.
+
+    (පේළිය/පේළියේ) තෝරන්න කිව්වොත් {
+        ...
+    }
+
+තෝරන්න is the function name.
+
+පේළිය/පේළියේ is an argument to the function.
+Either name can be used to access the same variable.
+
+A generator can be implemented using the දෙන්න keyword.
+
+## Conditionals
+
+    j == i නම් {
+        ...;
+    } නැත්තං j > i නම් {
+        ...;
+    } නැත්තං {
+        ...;
+    }
+
+## Loops
+
+    [10] එකින් එක i කියලා අරං {
+        ...;
+    }
+
+    i = 0;
+    i < 10 කල් {
+        i += 1;
+    }
+    
+## Built-ins
+
+|=======================
+|දිග    | Length of list
+|ලියන්න | Write to the console
+|=======================
+
+
+## Keywords
+
+* කිව්වොත්
+* එකින් එක
+* කියලා අරං
+* නම්
+* නැත්තං
+* දෙන්න
+
