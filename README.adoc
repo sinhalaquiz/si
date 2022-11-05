@@ -35,9 +35,16 @@ A generator can be implemented using the දෙන්න keyword.
 
 ## Loops
 
-    [10] එකින් එක i කියලා අරං {
+### Loop through an iterable
+
+    පේළියෙන් එකින් එක i කියලා අරං {
         ...;
     }
+
+* පේළියෙන් is an Iterable object (e.g. a list or generator)
+* i is the iterator
+
+### Loop while a condition is true
 
     i = 0;
     i < 10 කල් {
